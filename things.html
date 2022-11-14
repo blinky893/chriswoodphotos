@@ -14,9 +14,58 @@
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #f3f3f3;
+        }
+
+        ul.topnav li {
+            float: left;
+        }
+
+        ul.topnav li a {
+            display: block;
+            color: #000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.topnav li a.active {background-color: #b4b4b4;}
+
+        ul.topnav li a:hover:not(.active) {
+            background-color: #e7e7e7;
+        }
+
+        @media screen and (max-width: 600px) {
+
+            ul.topnav li.right,
+            ul.topnav li {
+                float: none;
+            }
+        }
+    </style>
+
+
 </head>
 
 <body class="is-preload">
+
+    <ul class="topnav">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/people.html">People</a></li>
+        <li><a href="/places.html">Places</a></li>
+        <li><a class="active" href="/things.html">Things</a></li>
+    </ul>
 
     <!-- Gallery -->
     <section class="wrapper style1 align-center">
