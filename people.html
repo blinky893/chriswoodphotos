@@ -6,68 +6,42 @@
 -->
 <html>
 
-<head>
-    <title>Chris Wood Photos</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
-    </noscript>
-
-    <style>
-        body {
-            margin: 0;
-        }
-
-        ul.topnav {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #f3f3f3;
-        }
-
-        ul.topnav li {
-            float: left;
-        }
-
-        ul.topnav li a {
-            display: block;
-            color: #000;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        ul.topnav li a.active {background-color: #b4b4b4;}
-
-        ul.topnav li a:hover:not(.active) {
-            background-color: #e7e7e7;
-        }
-
-        @media screen and (max-width: 600px) {
-
-            ul.topnav li.right,
-            ul.topnav li {
-                float: none;
-            }
-        }
-    </style>
-
-
-</head>
-
-<body class="is-preload">
-
-    <ul class="topnav">
-        <li><a href="/index.html">Home</a></li>
-        <li><a class="active" href="/people.html">People</a></li>
-        <li><a href="/places.html">Places</a></li>
-        <li><a href="/things.html">Things</a></li>
-    </ul>
-
-
+    <head>
+        <title>Chris Wood Photos</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="https://fonts.googleapis.com/css2?family=Sans+Serif+Pro" />
+        <noscript>
+            <link rel="stylesheet" href="assets/css/noscript.css" />
+        </noscript>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/index.html">Chris Wood</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/people.html">People</a></li>
+                        <li><a class="active" href="/places.html">Places</a></li>
+                        <li><a href="/things.html">Things</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
     <!-- Gallery -->
     <section class="wrapper style1 align-center">
         <div class="inner">
