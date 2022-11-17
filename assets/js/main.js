@@ -235,8 +235,8 @@
 						href = $a.attr('href');
 
 					// Not an image? Bail.
-						if (!href.match(/\.(jpg|gif|png|mp4)$/))
-							return;
+						// if (!href.match(/\.(jpg|gif|png|mp4)$/))
+							// return;
 
 					// Prevent default.
 						event.preventDefault();
